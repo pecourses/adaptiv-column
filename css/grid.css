@@ -10,9 +10,9 @@
 }
 
 .col {
-  flex: 100%;
+  flex-basis: 100%;
   padding: 20px calc(var(--col-gatter) / 2);
-  margin: auto;
+  /* margin: auto; */
 }
 /* 576-767 */
 @media screen and (min-width: 576px) {
