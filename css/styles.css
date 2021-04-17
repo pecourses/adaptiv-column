@@ -1,0 +1,54 @@
+@import './grid.css';
+@import './userCard.css';
+
+/* mobile-first
+0-...
+h1 {
+  color: blue;
+}
+500-...
+@media screen and (min-width: 500px) {
+  h1 {
+    color: brown;
+  }
+} 
+900-...
+@media screen and (min-width: 900px) {
+  h1 {
+    color: green;
+  }
+}*/
+/* desktop-first
+0-...
+h1 {
+  color: blue;
+}
+0-900
+@media screen and (max-width: 900px) {
+  h1 {
+    color: green;
+  }
+}
+0-500
+@media screen and (max-width: 500px) {
+  h1 {
+    color: brown;
+  }
+} 
+
+
+*/
+/* При разрешении 900px и больше див сделать 400*200, иначе 200*400 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: stretch;
+  /* height: 70vh; */
+}

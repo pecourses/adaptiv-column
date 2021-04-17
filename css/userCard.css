@@ -1,0 +1,27 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid red;
+  /* height: 400px; */
+  margin: 0 auto;
+}
+
+.cardHeader {
+  background-color: blue;
+  height: 150px;
+}
+
+.userInfo {
+  background-color: white;
+  padding: 40px 20px;
+  height: 100%;
+}
+
+.cardFooter {
+  text-align: center;
+  background-color: blueviolet;
+  margin-top: auto;
+}
